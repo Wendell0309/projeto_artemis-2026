@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - projeto-artemis-nicolas
+name: Build and deploy Python app to Azure Web App - Projeto-artemis-nicolas
 
 on:
   push:
@@ -61,6 +61,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'projeto-artemis-nicolas'
+          app-name: 'Projeto-artemis-nicolas'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E2CC2A6E367549B0AF4BB693BA289114 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0C6A21E4C85240D7924BB94B021B4D99 }}
